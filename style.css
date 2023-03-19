@@ -218,18 +218,6 @@ div.title{
     25% { top: 20px;; left: 60%;}
   }
 
-  .bg-text {
-
-
-    color: white;
-    font-weight: bold;
-    position: absolute;
-    top: 50%;
-    left: 52%;
-    transform: translate(-50%, -50%);
-
-    
-  }
   .bg-header {
     color: white;
     font-weight: bold;
