@@ -54,7 +54,7 @@ body::-webkit-scrollbar {
 .sidenav .closebtn {
   position: absolute;
   top: 0;
-  right: 25px;
+  left: -50px;
   font-size: 36px;
   margin-left: 50px;
 }
