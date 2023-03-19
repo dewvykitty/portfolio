@@ -27,7 +27,7 @@ function sentmessage(){
 
   function showhide(idInput) {
   if (idInput === "home"){
-    $("#home").removeClass("titlehomeback").addClass("titlehome")
+    $("#home").removeClass("titlehomeback").addClass("titlehome2")
     $("#headerhome").removeClass("titlehomeback").addClass("titlehome")
     $("#about").hide()
     $("#contact").hide()
@@ -49,7 +49,7 @@ function sentmessage(){
     $("#contactt2").addClass("hover-underline-animation").removeClass("hoverr")
   }
   else if (idInput === "about"){
-    $("#home").addClass("titlehomeback").removeClass("titlehome")
+    $("#home").addClass("titlehomeback").removeClass("titlehome2")
     $("#headerhome").addClass("titlehomeback").removeClass("titlehome")
     $("#about").show()
     $("#contact").hide()
@@ -71,7 +71,7 @@ function sentmessage(){
     $("#contactt2").addClass("hover-underline-animation").removeClass("hoverr")
   }
   else if (idInput === "contact"){
-    $("#home").addClass("titlehomeback").removeClass("titlehome")
+    $("#home").addClass("titlehomeback").removeClass("titlehome2")
     $("#headerhome").addClass("titlehomeback").removeClass("titlehome")
     $("#about").hide()
     $("#contact").show()
@@ -93,7 +93,7 @@ function sentmessage(){
     $("#skillst2").addClass("hover-underline-animation").removeClass("hoverr")
   }
   else if (idInput === "skills"){
-    $("#home").addClass("titlehomeback").removeClass("titlehome")
+    $("#home").addClass("titlehomeback").removeClass("titlehome2")
     $("#headerhome").addClass("titlehomeback").removeClass("titlehome")
     $("#about").hide()
     $("#contact").hide()
